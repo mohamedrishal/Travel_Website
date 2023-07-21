@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    height: 101vh;
+    width: 100%;
+    background-image: url(image/head\ wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+
+}
+
+/* Head div */
+
+
+/* model */
+
+span{
+    color: yellow;
+    font-size: 40px;
+}
+.head-div{
+
+    margin-top: 8%;
+
+}
+
+.item1{
+    font-weight: 500;
+    font-size: 60px;
+    
+}
+
+.item2{
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+
+}
+
+
+/* carousel */
+
+.carouseldiv .carouselitem{
+    height: 77vh;
+}
+
+.carousel-h1{
+    font-family: 'Cinzel Decorative', cursive;
+    background-color: rgba(255, 255, 255, 0.464);
+    padding: 0.625rem ;
+    margin: 0rem 14.375rem;
+    border-radius: 0.938rem;
+}
+
+/* card */
+.cardhover:hover{
+    box-shadow: 0 4px 10px rgba(0,0,0,0.16), 0 4px 10px rgba(0,0,0,0.23);
+
+}
+
+.ourcustomerheading{
+    font-family: 'Kaushan Script', cursive;
+    color: #2769e4;
+}
+
+.secctionthree-p{
+    font-family: 'Dancing Script', cursive;
+    color: red;
+    font-size:larger;
+
+}
+
+.footer{
+    background-color: #0f254e;
+}
+
+.footerhead{
+    color: #e5820d;
+}
+
+.info{
+    position: absolute;
+    top: 0;
+    z-index:-1 ;
+}
+.discription-popup{
+    margin-top: 17px;
+    /* height: 33.3vh; */
+    height: 88.70%;
+    width: 88.60%;
+    border-radius: 15px;
+}
+
+.popup:hover .info{
+    position: absolute;
+    top: 0;
+    z-index:1 ;
+    transition: all 0.1s ease;
+    background-color: rgba(0, 128, 0, 0.548);  
+    transition: translateY(-10px); 
+
+}
